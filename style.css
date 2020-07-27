@@ -1,0 +1,26 @@
+.grid {
+	width: 200px;
+	height: 200px;
+	display: flex;
+	flex-wrap: wrap;
+	border: 10px solid gray;
+	box-shadow: 2px 2px 4px #535353;
+}
+
+.grid div {
+    width: 20px;
+    height: 20px;
+}
+
+.snake {
+	background-color: blue;
+	border-radius: 6px;
+	box-shadow: 1px 1px 1Px gray;
+}
+
+.apple {
+	background-color: #fd0000;
+	border-radius: 30px;
+	background-image: linear-gradient(to bottom right, red, orange);
+	box-shadow: 1px 1px 1px gray;
+}
